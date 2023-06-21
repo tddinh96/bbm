@@ -5,19 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lien Sales - Big Break Marina</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <style>
-    .carousel-item{
-      max-width: 50%; /* Adjust the percentage value as needed */
-  height: auto; /* Maintain aspect ratio */
-  margin: auto; /* Center the image horizontally */
-    }
 
   </style>
 </head>
 <body>
     <!-- Navbar starts -->
+    <section id="navigationBar">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html"><img src="./assets/images/bbmlogo.png" height="50px" width="63px" alt="Big Break Marina Icon"> Big Break Marina</a>
@@ -40,7 +35,7 @@
                   <li><a class="dropdown-item" href="./storage.html">Dry Storage & Slip Rentals</a></li>
                   <li><a class="dropdown-item" href="./event.html">Events</a></li>
                   <li><a class="dropdown-item" href="./liensale.html">Lien Sale</a></li>
-                  <li><a class="dropdown-item" href="#">Unit Rentals</a></li>
+                  <li><a class="dropdown-item" href="./unitrentals.html">Unit Rentals</a></li>
                   <li><a class="dropdown-item" href="#">Launch Ramp</a></li>
                   <li><a class="dropdown-item" href="#">RV Parking & Campground</a></li>
                   <li><a class="dropdown-item" href="#">Boats & Trailers for Sales</a></li>
@@ -57,58 +52,156 @@
           </div>
         </div>
       </nav>
+      </section>
       <!-- Navbar ends -->
       <!-- Page heading 1 -->
+      <section>
       <div class="px-4 pt-5 my-5 text-center">
         <h1 class="display-4 fw-bold text-body-emphasis">Lien Sales</h1>
       </div>
-      <!-- Product listing start -->
-      <!-- Product titles -->
-      <div class="px-4 pt-5 my-5 text-center">
-        <h2 class="display-6">Bayliner </h2>
-              <!-- Price -->
-        <p>Price: $500</p>
-        <p>Description here</p>
-        <!-- Images -->
-      <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-  
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./assets/products/bayliner-blue-exterior-1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/products/bayliner-blue_exterior-2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/products/bayliner-blue-exterior-1.jpg" class="d-block w-100" alt="...">
+    </section>
+    
+    <section id="listings">
+      <div class="container px-4 py-5">
+        <h2 class="pb-2 border-bottom">Current Listings</h2>
+        <h3>Product 1</h3>
+        <div class="row g-1 py-2 row-cols-1 row-cols-lg-4">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./assets/products/bayliner-blue-exterior-1.jpg" width="300">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./assets/products/bayliner-blue-exterior-1.jpg" width="300">
+            </div>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./assets/products/bayliner-blue-exterior-1.jpg" width="300">
+            </div>
+          </div>
+          <div class="feature col">
+            <div class="list-group">
+              <div class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">General</h5>
+                </div>
+                <p class="mb-1">Registration: CF 1234 AB</p>
+                <p class="mb-1">Builder: Yorkt</p>
+                <p class="mb-1">Year model: 1985</p>
+                <p class="mb-1">Type: 92</p>
+                <p class="mb-1">Engine: </p>
+                <p class="mb-1">With trailer: YES/NO </p>
+              </div>
+              <div class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">Dimensions</h5>
+                </div>
+                <p class="mb-1">LOA: 23 ft</p>
+                <p class="mb-1">Width: 9.5 ft</p>
+                <p class="mb-1">Draft: 1.5 ft</p>
+                <p class="mb-1">Height: 7 ft</p>
+              </div>
+            </div>
         </div>
       </div>
+    </section>
+
+    <section id="listings">
+      <div class="container px-4 py-5">
+        <h3 class="border-top">Product 2</h3>
+        <div class="row g-1 py-2 row-cols-1 row-cols-lg-4">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./assets/products/bayliner-blue_exterior-2.jpg" width="300">
+            </div>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./assets/products/bayliner-blue_exterior-2.jpg" width="300">
+            </div>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./assets/products/bayliner-blue_exterior-2.jpg" width="300">
+            </div>
+          </div>
+          <div class="feature col">
+            <div class="list-group">
+              <div class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">Generals</h5>
+                </div>
+                <p class="mb-1">Registration: CF 1234 AB</p>
+                <p class="mb-1">Builder: Yorkt</p>
+                <p class="mb-1">Year model: 1985</p>
+                <p class="mb-1">Type: 92</p>
+                <p class="mb-1">Engine: </p>
+                <p class="mb-1">With trailer: YES/NO </p>
+              </div>
+              <div class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">Dimensions</h5>
+                </div>
+                <p class="mb-1">LOA: 23 ft</p>
+                <p class="mb-1">Width: 9.5 ft</p>
+                <p class="mb-1">Draft: 1.5 ft</p>
+                <p class="mb-1">Height: 7 ft</p>
+              </div>
+            </div>
+        </div>
       </div>
+    </section>
 
-      <!-- Description -->
-
-      <!-- Product listing end -->
-
-
-
-
+    <section id="listings">
+      <div class="container px-4 py-5">
+        <h3 class="border-top">Product 3</h3>
+        <div class="row g-1 py-2 row-cols-1 row-cols-lg-4">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./assets/products/bayliner-blue_exterior-2.jpg" width="300">
+            </div>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./assets/products/bayliner-blue_exterior-2.jpg" width="300">
+            </div>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./assets/products/bayliner-blue_exterior-2.jpg" width="300">
+            </div>
+          </div>
+          <div class="feature col">
+            <div class="list-group">
+              <div class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">Generals</h5>
+                </div>
+                <p class="mb-1">Registration: CF 1234 AB</p>
+                <p class="mb-1">Builder: Yorkt</p>
+                <p class="mb-1">Year model: 1985</p>
+                <p class="mb-1">Type: 92</p>
+                <p class="mb-1">Engine: </p>
+                <p class="mb-1">With trailer: YES/NO </p>
+              </div>
+              <div class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">Dimensions</h5>
+                </div>
+                <p class="mb-1">LOA: 23 ft</p>
+                <p class="mb-1">Width: 9.5 ft</p>
+                <p class="mb-1">Draft: 1.5 ft</p>
+                <p class="mb-1">Height: 7 ft</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    
       <!-- Footer -->
+      <section id="footer">
       <div class="container"> 
         <footer class="py-3 my-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -125,7 +218,7 @@
           </footer>
         </div>
 
-
+      </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
